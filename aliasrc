@@ -1,0 +1,30 @@
+alias ls="ls --color -F"
+alias ll="ls --color -lh"
+alias cls="clear"
+alias vim="nvim"
+alias history="history 1"
+alias pingg="ping -c 3 www.google.com"
+alias cpuinfo="sudo auto-cpufreq --stats"
+alias grep="grep --color -i"
+alias acvenv="source venv/bin/activate"
+alias du="du --max-depth=1 -h"
+alias la="ls -a --color"
+alias lla="ls -lah --color"
+alias resume="okular ~/Documents/resume/AjayDS_resume.pdf"
+alias less="bat"
+
+## python related stuff
+alias condaini="source /run/media/default/dev_env/miniconda3/bin/activate"
+alias ca="conda activate"
+alias stkag="condaini && cd ~/dev/kaggle && conda activate kaggle && jupyter notebook"
+alias pyenv="~/.pyenv/bin/pyenv"
+
+## stupid xorg cant load zsh config
+alias lzsh="source ~/.config/zsh/.zshrc"
+
+## disable when mom comes home
+alias neofetch="play -v 0.3 -q ~/other/yamete_kudasai.wav 2>/dev/null &! neofetch --source ~/other/art/ahego2 --disable cpu gpu Icons Theme | lolcat"
+
+
+## teal internship alias
+alias tealvpn="sudo openvpn --config ~/.secrets/teal_intern/teal_vpn_config.ovpn"

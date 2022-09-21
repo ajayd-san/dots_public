@@ -1,0 +1,9 @@
+auto_update_conda: false
+changeps1: false
+channels:
+  - conda-forge
+  - defaults
+envs_dirs:
+  - /run/media/default/dev_env/miniconda3/envs
+pkgs_dirs:
+  - /run/media/default/dev_env/miniconda3/pkgs

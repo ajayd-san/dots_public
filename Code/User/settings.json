@@ -1,0 +1,91 @@
+{
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "terminal.external.linuxExec": "kitty",
+    "editor.fontFamily": "'JetBrains Mono', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontLigatures": true,
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "k"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+        {
+            "before": [
+                "<C-i>"
+            ],
+            "commands": [
+                "cursorLineEnd"
+            ]
+        },
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<C-n>"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "lineBreakInsert"
+            ],
+            "silent": true
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                ">"
+            ],
+            "after": [
+                ">",
+                "g",
+                "v"
+            ]
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "after": [
+                "<",
+                "g",
+                "v"
+            ]
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-c>": false,
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "telemetry.telemetryLevel": "off",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "explorer.confirmDelete": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.cursorSurroundingLines": 10,
+    "editor.parameterHints.enabled": false,
+    "window.zoomLevel": 1,
+    "python.formatting.provider": "black",
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.codeLens.enabled": false,
+    "extensions.autoUpdate": false,
+}
